@@ -19,9 +19,9 @@ public class Main {
         EMPLOYEES[9] = new Employee("Максимов ", "Михаил ", "Егорович", 110011, 2);
         printFullInfo();
         System.out.println("Сумма ЗП всех сотрудников " + totalSalaries() + " рублей");
-        System.out.println("Минимальная заработная плата у сотрудника  " + minimumWageWorker() + " рублей");
-        System.out.println("Максимальная заработная плата у сотрудника  " + maximumWageWorker() + " рублей");
-        System.out.println("Средняя заработная плата у сотрудников  " + averageSalary() + " рублей");
+        System.out.println("Минимальная ЗП сотрудника  " + minimumWageWorker() + " рублей");
+        System.out.println("Максимальная ЗП сотрудника  " + maximumWageWorker() + " рублей");
+        System.out.println("Средняя ЗП сотудника  " + averageSalary() + " рублей");
         printFullNameInfo();
     }
 
